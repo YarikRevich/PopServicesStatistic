@@ -1,0 +1,57 @@
+.main {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9f2f5;
+}
+
+.popsite-table {
+    height: 30em;
+    width: 20em;
+    max-width: 95%;
+    border-radius: 10px;
+    border: solid 1.5px grey;
+    background-color: #95cccc;
+}
+
+.main-part-table {
+    height: 85%;
+    max-width: 100%;
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.main-table {
+    margin-top: .5em;
+    width: 18em;
+    max-width: 95%;
+    font-size: 1.05em;
+    border-radius: 10px;
+}
+
+td {
+    font-size: 1.2em;
+    height: 1.4em;
+    text-align: center;
+}
+
+.main-requester {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.requester-button {
+    height: 3em;
+    width: 10em
+}

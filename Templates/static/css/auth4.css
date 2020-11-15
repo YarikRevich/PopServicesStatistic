@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@368&display=swap');
+.main {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-part {
+    background-color: royalblue;
+    width: 1em;
+    height: 1em;
+    border-radius: 50px;
+    transition: border-radius .5s;
+}
+
+.auth-child {
+    opacity: 0;
+}
+
+.auth-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.3em;
+}
+
+.auth-title span {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.4em;
+    color: #ffffff
+}
+
+.form-inputes {
+    margin-top: 1em;
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 1.4em;
+}
+
+.auth-form-input {
+    width: 20em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.form-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-button {
+    margin-top: .4em;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    display: block;
+}
+
+
+/* .auth-part:hover .auth-button {
+    display: block !important;
+} */
